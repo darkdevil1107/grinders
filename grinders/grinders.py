@@ -30,7 +30,7 @@ async def react(ctx, emoji):
         pass
 async def new_embed(ctx, cmd):
 
-    with open("database/embed.json", "r") as fp:
+    with open("embed.json", "r") as fp:
 
         data = json.load(fp)
 
@@ -161,7 +161,7 @@ class Grinders(cmds.Cog):
 
         
 
-        with open("database/user.json", "r") as fp:
+        with open("user.json", "r") as fp:
 
             data = json.load(fp)
 
@@ -205,7 +205,7 @@ class Grinders(cmds.Cog):
 
             
 
-        with open("database/user.json", "w") as fp:
+        with open("user.json", "w") as fp:
 
             json.dump(data, fp, indent=4)
 
@@ -257,7 +257,7 @@ class Grinders(cmds.Cog):
 
             channel = guild.get_channel(1196092998673498253)      
 
-            with open("database/user.json", "r") as fp:
+            with open("user.json", "r") as fp:
 
                 data = json.load(fp)                
 
@@ -289,7 +289,7 @@ class Grinders(cmds.Cog):
 
                         del data[str(member.id)]
 
-            with open("database/user.json", "w") as fp:
+            with open("user.json", "w") as fp:
 
                 json.dump(data, fp, indent=4)
 
@@ -361,7 +361,7 @@ class Grinders(cmds.Cog):
 
         """
 
-        with open("database/user.json", "r") as fp:
+        with open("user.json", "r") as fp:
 
             data = json.load(fp)
 
@@ -429,7 +429,7 @@ class Grinders(cmds.Cog):
 
         for member in ctx.guild.members:
 
-            with open("database/user.json", "r") as fp:
+            with open("user.json", "r") as fp:
 
                 data = json.load(fp)
 
