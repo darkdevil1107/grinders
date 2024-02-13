@@ -1,3 +1,9 @@
 {
-  
+    "name": "grinders",
+	"author": ["darkyy"],
+	"install_msg": "Thank you for installing CustomPing.",
+	"description": "Grinder cmd",
+	"short": "Grinder cmds"
+	
+   
 }
