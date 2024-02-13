@@ -1,0 +1,27 @@
+{
+    "grinder": {
+        "title": "Grinders Info",
+        "description": "**Mini Grinder**<a:DG_heartsparkles:1133172282760626266> \n <a:DG_bluearrow:1029873096968126534> **Pay:** \u23e3 3Mil/Daily or 21Mil/Weekly\n\u200b\nMedium Grinder <a:DG_heartsparkles:1133172282760626266>\n<a:DG_bluearrow:1029873096968126534> **Pay:** \u23e3 6Mil/Daily or 42Mil/Weekly\n\u200b\nElite Grinder <a:DG_heartsparkles:1133172282760626266>\n<a:DG_bluearrow:1029873096968126534> **Pay:** \u23e3 9Mil/Daily or 63Mil/Weekly\n\u200b\nJoin Us <a:DG_heartsparkles:1133172282760626266>\n<a:DG_bluearrow:1029873096968126534> Join us in <#1080279558156202127>",
+        "color": "0x010101"
+    },
+    "emtesting": {
+        "title": "testingpassed",
+        "description": "testing",
+        "color": "0x010101"
+    },
+    "wish": {
+        "title": "<a:id_wbfly:1186366833746522224> New Birthday Wish!",
+        "description": "<:id_cute_cat:1191260284145377300>{ctx.author.mention} wishes you a very happy birthday!\n<:id_bcake:1191232952433115136> **Message -** {wish}\n\u200b\n<a:id_pbhrt:1191234250620534815> All the best for the future!",
+        "color": "0x010101"
+    },
+    "grinder_dm": {
+        "title": " <a:DG_blueheartpop:1140017122265800755> __**Grinders Payment**__ <a:DG_blueheartpop:1140017122265800755>",
+        "description": "<:DG_reply_blue:1195900702208295003> Your __**Grinder Payments**__ are **Pending**\n<:DG_reply_cont:1195900722227707984> Make sure to inform staff if you have any trouble with donations.\n<:DG_reply_cont:1195900722227707984> **Amount due:** \u23e3 `{tier}`\n<:DG_reply_cont:1195900722227707984> **Channel:** [Pay Here](https://discord.com/channels/872822492295733279/1085497621902266388)\n<:DG_reply_end:1195900753311707267> **Note :** ```\n{note}\n```",
+        "color": "0x010101"
+    },
+    "grinder_heist": {
+        "title": "Grinders Info",
+        "description": "<:DG_dinohug:1127358066556403762> **__Few things to note:-__**\n<:DG_blackheart:1151294839418261564> **Pay Fee of 5 days in advance to get the role.**\n <:DG_bluedot:1081028944565911673> **\u23e3 15,000,000** for `Mini Grinder`.\n <:DG_bluedot:1081028944565911673> **\u23e3 30,000,000** for `Medium Grinder`\n <:DG_bluedot:1081028944565911673> **\u23e3 45,000,000** for `Elite Grinder`.\n\u200b\n<:DG_Info:1160973469132009542> \u250b This is the amount you have to pay in order to get the role and yes it will count towards your upcoming grinder fee.\n\u200b\n<a:alert:1197950206730317864>  \u2502Leaving grinders after grinder heist will lead to a 30d blacklist.",
+        "color": "0x010101"
+    }
+}
