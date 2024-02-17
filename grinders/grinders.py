@@ -18,6 +18,12 @@ ghost_url = "https://media.discordapp.net/attachments/1120678105971957790/112902
 
 import random
 
+current_dir = os.path.dirname(__file__)
+
+    # Construct the full path to the embed.json file
+embedf = os.path.join(current_dir, "embed.json")
+userf = os.path.join(current_dir, "user.json")
+
 color = 0x010101
 async def react(ctx, emoji):  
 
@@ -30,7 +36,7 @@ async def react(ctx, emoji):
         pass
 async def new_embed(ctx, cmd):
 
-    with open(".embed.json", "r") as fp:
+    with open(embedf, "r") as fp:
 
         data = json.load(fp)
 
@@ -161,7 +167,7 @@ class Grinders(cmds.Cog):
 
         
 
-        with open(".user.json", "r") as fp:
+        with open(userf, "r") as fp:
 
             data = json.load(fp)
 
@@ -205,7 +211,7 @@ class Grinders(cmds.Cog):
 
             
 
-        with open(".user.json", "w") as fp:
+        with open(userf, "w") as fp:
 
             json.dump(data, fp, indent=4)
 
@@ -257,7 +263,7 @@ class Grinders(cmds.Cog):
 
             channel = guild.get_channel(1196092998673498253)      
 
-            with open(".user.json", "r") as fp:
+            with open(userf, "r") as fp:
 
                 data = json.load(fp)                
 
@@ -289,7 +295,7 @@ class Grinders(cmds.Cog):
 
                         del data[str(member.id)]
 
-            with open(".user.json", "w") as fp:
+            with open(userf, "w") as fp:
 
                 json.dump(data, fp, indent=4)
 
@@ -361,7 +367,7 @@ class Grinders(cmds.Cog):
 
         """
 
-        with open(".user.json", "r") as fp:
+        with open(userf, "r") as fp:
 
             data = json.load(fp)
 
@@ -429,7 +435,7 @@ class Grinders(cmds.Cog):
 
         for member in ctx.guild.members:
 
-            with open(".user.json", "r") as fp:
+            with open(userf, "r") as fp:
 
                 data = json.load(fp)
 
@@ -471,7 +477,7 @@ class Grinders(cmds.Cog):
         g = ctx.guild.get_role(981912789973086248)
         for member in g.members:
 
-            with open(".user.json", "r") as fp:
+            with open(userf, "r") as fp:
 
                 data = json.load(fp)
 
