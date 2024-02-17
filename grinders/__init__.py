@@ -1,4 +1,4 @@
-from .gridners import Grinders
+from .grinders import Grinders
 
 
 async def setup(bot):
